@@ -1,6 +1,6 @@
 ## About
 
-Simple shell script that automatically installs the latest version of PhpMyAdmin
+Simple shell script that automatically installs the latest version of phpMyAdmin
 on a Laravel Homestead box.
 
 ## Usage
@@ -9,12 +9,12 @@ on a Laravel Homestead box.
 
 2. `cd` to your code/projects directory (by default `~/Code`)
 
-3. `$ curl -sS https://raw.githubusercontent.com/grrnikos/pma/master/pma.sh | sh`
+3. `$ curl -sS https://raw.githubusercontent.com/kuttumiah/pma/master/pma.sh | sh`
 
-4. Open the `/etc/hosts` file on your main machine and add `127.0.0.1  phpmyadmin.test`
+4. Open the `/etc/hosts` (Mac/Linux) or `C:\Windows\System32\drivers\etc\hosts` (on Windows) file on your main machine and add `127.0.0.1  phpmyadmin.test`
 
-5. Go to [http://phpmyadmin.test:8000](http://phpmyadmin.test:8000). Default credentials are username `homestead` and password `secret`
+5. Go to [http://phpmyadmin.test](http://phpmyadmin.test). Default credentials are username `homestead` and password `secret`
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
